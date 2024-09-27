@@ -1,7 +1,7 @@
 {
     "name": "Dotfiles Setup - Yuv",
     "id": "dotfiles-setup",
-    "version": "0.0.4",
+    "version": "0.0.5",
     "description": "Install dotfiles and their dependencies",
     "options": { },
     "installsAfter": [
