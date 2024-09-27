@@ -1,8 +1,8 @@
 #!/bin/sh
 set -e
 
+git clone https://github.com/yuvaraj/dotfiles
 cd dotfiles
-git submodule update --init --recursive
 
 # Install tmux
 bash ./tmux/install.sh
