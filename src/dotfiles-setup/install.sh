@@ -1,9 +1,6 @@
 #!/bin/sh
 set -e
 
-# Install dependencies
-apt install wget
-
 # Download dotfiles from https://github.com/jyuvaraj03/dotfiles/archive/refs/heads/main.zip
 wget https://github.com/jyuvaraj03/dotfiles/archive/refs/heads/main.zip
 # unzip as dotfiles

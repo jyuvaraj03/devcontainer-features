@@ -3,7 +3,10 @@
     "id": "dotfiles-setup",
     "version": "0.0.5",
     "description": "Install dotfiles and their dependencies",
-    "options": { },
+    "dependsOn": {
+      "ghcr.io/devcontainers/features/common-utils": {},
+      "ghcr.io/devcontainers/features/git": {}
+    },
     "installsAfter": [
         "ghcr.io/devcontainers/features/common-utils",
         "ghcr.io/devcontainers/features/git"
