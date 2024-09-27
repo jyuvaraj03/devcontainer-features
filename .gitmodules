@@ -1,3 +1,0 @@
-[submodule "src/dotfiles-setup/dotfiles"]
-	path = src/dotfiles-setup/dotfiles
-	url = git@github.com:jyuvaraj03/dotfiles.git
