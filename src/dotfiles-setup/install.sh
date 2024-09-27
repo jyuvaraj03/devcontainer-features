@@ -1,7 +1,10 @@
 #!/bin/sh
 set -e
 
-git clone https://github.com/yuvaraj/dotfiles
+# Download dotfiles from https://github.com/jyuvaraj03/dotfiles/archive/refs/heads/main.zip
+wget https://github.com/jyuvaraj03/dotfiles/archive/refs/heads/main.zip
+# unzip as dotfiles
+unzip main.zip -d dotfiles
 cd dotfiles
 
 # Install tmux
