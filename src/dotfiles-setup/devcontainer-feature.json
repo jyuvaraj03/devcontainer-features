@@ -1,0 +1,10 @@
+{
+    "name": "Dotfiles Setup - Yuv",
+    "id": "dotfiles-setup",
+    "version": "0.0.1",
+    "description": "Install dotfiles and their dependencies",
+    "options": { },
+    "installsAfter": [
+        "ghcr.io/devcontainers/features/common-utils"
+    ]
+}
